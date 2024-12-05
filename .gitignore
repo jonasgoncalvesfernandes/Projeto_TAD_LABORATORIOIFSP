@@ -1,0 +1,25 @@
+# Ignorar arquivos do sistema
+Thumbs.db
+.DS_Store
+
+# Ignorar diretórios específicos do sistema
+AppData/
+Cookies/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+OneDrive/
+
+# Ignorar arquivos de configuração do Git
+.gitconfig
+.idlerc/
+.node_repl_history
+.vscode/
+.idea/
