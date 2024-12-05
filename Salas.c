@@ -2,6 +2,7 @@
 // chamando a struct  do Salas.h(onde contem a struct pra armazenar as inf dos blocos e salas)
 // manipulo elas a partir daqui
 #include "Salas.h"
+#include "Salas.c"
 #include <string.h>
 
 SalaTeorica sala[NUM_SALAS_TEORICAS] = {
