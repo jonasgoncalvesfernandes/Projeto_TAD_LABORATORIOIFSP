@@ -21,8 +21,11 @@ typedef struct {
 
 // Protótipos das funções
 void exibir_dados();
-int menu(SalaTeorica sala[], LaboratorioInformatica lab[]);
+int mostrar_menu(SalaTeorica sala[], LaboratorioInformatica lab[]);
 int taxa_ocupacaoT(SalaTeorica sala[]);
 int Taxa_LabInformatica(LaboratorioInformatica lab[]);
+int Espaco_ordenadoCampus(LaboratorioInformatica lab[], SalaTeorica sala[]);
 
+extern SalaTeorica sala[NUM_SALAS_TEORICAS];
+extern LaboratorioInformatica lab[NUM_LABORATORIOS];
 #endif
